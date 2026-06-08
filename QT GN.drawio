@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Quy trình Giải ngân Tài chính Tiêu chuẩn" id="Bdt1QzWKqt4d7XGMMlpw">
+    <mxGraphModel dx="3603" dy="1558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8f9fa;fontFamily=Arial;fontStyle=1;fontSize=14;" value="QUY TRÌNH GIẢI NGÂN" vertex="1">
+          <mxGeometry height="900" width="2700" x="70" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-2" parent="Gm58KOYxec5luLuSo-Vg-1" style="swimlane;html=1;startSize=30;horizontal=0;fillColor=#ffffff;fontFamily=Arial;fontStyle=1;" value="2. BỘ PHẬN SALES" vertex="1">
+          <mxGeometry height="200" width="2700" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-3" parent="Gm58KOYxec5luLuSo-Vg-2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#28a745;fontColor=#ffffff;fontSize=10;" value="Hồ sơ duyệt" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-4" parent="Gm58KOYxec5luLuSo-Vg-2" style="rounded=1;whiteSpace=wrap;html=1;" value="Hướng dẫn KH ký Khế ước" vertex="1">
+          <mxGeometry height="60" width="150" x="150" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-5" parent="Gm58KOYxec5luLuSo-Vg-2" style="rounded=1;whiteSpace=wrap;html=1;" value="Upload hồ sơ lên BPM" vertex="1">
+          <mxGeometry height="60" width="150" x="350" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-6" parent="Gm58KOYxec5luLuSo-Vg-1" style="swimlane;html=1;startSize=30;horizontal=0;fillColor=#ffffff;fontFamily=Arial;fontStyle=1;" value="3. CÁN BỘ VẬN HÀNH" vertex="1">
+          <mxGeometry height="280" width="2700" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-7" parent="Gm58KOYxec5luLuSo-Vg-6" style="rounded=1;whiteSpace=wrap;html=1;" value="Kiểm tra thông tin &amp; Điều kiện giải ngân" vertex="1">
+          <mxGeometry height="60" width="180" x="550" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-8" parent="Gm58KOYxec5luLuSo-Vg-6" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8f9fa;fontStyle=1;" value="Hình thức?" vertex="1">
+          <mxGeometry height="100" width="100" x="800" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-9" parent="Gm58KOYxec5luLuSo-Vg-6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2ff;strokeColor=#004085;fontStyle=1;" value="Bấm Nút: GIẢI NGÂN QUA BANK" vertex="1">
+          <mxGeometry height="70" width="220" x="1010" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-10" parent="Gm58KOYxec5luLuSo-Vg-6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontStyle=1;" value="Bấm Nút: GIẢI NGÂN TIỀN MẶT" vertex="1">
+          <mxGeometry height="70" width="220" x="1020" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-11" parent="Gm58KOYxec5luLuSo-Vg-1" style="swimlane;html=1;startSize=30;horizontal=0;fillColor=#f8f9fa;fontFamily=Arial;fontStyle=1;" value="4. HỆ THỐNG (BPM/API)" vertex="1">
+          <mxGeometry height="220" width="2700" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-12" parent="Gm58KOYxec5luLuSo-Vg-11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;fontStyle=1;" value="core: Chuyển khoản liên ngân hàng 24/7" vertex="1">
+          <mxGeometry height="70" width="220" x="1440" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-13" parent="Gm58KOYxec5luLuSo-Vg-11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;fontStyle=1;" value="Gen mã OTP &amp; Gửi SMS tự động cho KH" vertex="1">
+          <mxGeometry height="70" width="220" x="1300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-14" parent="Gm58KOYxec5luLuSo-Vg-11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;" value="Đồng bộ lệnh chi sang Đại lý" vertex="1">
+          <mxGeometry height="70" width="180" x="1880" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-15" parent="Gm58KOYxec5luLuSo-Vg-1" style="swimlane;html=1;startSize=30;horizontal=0;fillColor=#fff3cd;fontFamily=Arial;fontStyle=1;" value="5. ĐẠI LÝ THU CHI HỘ" vertex="1">
+          <mxGeometry height="160" width="2700" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-16" parent="Gm58KOYxec5luLuSo-Vg-15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Kiểm tra: CMT, Hợp đồng, Mã OTP" vertex="1">
+          <mxGeometry height="70" width="200" x="2000" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-17" parent="Gm58KOYxec5luLuSo-Vg-15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;fontStyle=1;fontSize=13;" value="ĐẠI LÝ TRẢ TIỀN MẶT CHO KH" vertex="1">
+          <mxGeometry height="70" width="200" x="2290" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-18" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=1.5;" target="Gm58KOYxec5luLuSo-Vg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-19" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" target="Gm58KOYxec5luLuSo-Vg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-20" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" target="Gm58KOYxec5luLuSo-Vg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-21" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" target="Gm58KOYxec5luLuSo-Vg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-22" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#004085;strokeWidth=2;fontColor=#004085;fontStyle=1;labelBackgroundColor=#ffffff;" target="Gm58KOYxec5luLuSo-Vg-9" value="CHUYỂN KHOẢN">
+          <mxGeometry relative="1" x="-0.6749" y="10" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="920" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-23" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#004085;strokeWidth=2;" target="Gm58KOYxec5luLuSo-Vg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-24" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#28a745;dashed=1;" target="Gm58KOYxec5luLuSo-Vg-33" value="Báo có">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-25" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#856404;strokeWidth=2;fontColor=#856404;fontStyle=1;labelBackgroundColor=#ffffff;" target="Gm58KOYxec5luLuSo-Vg-10" value="TIỀN MẶT">
+          <mxGeometry relative="1" x="-0.3" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-26" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#856404;strokeWidth=2;" target="Gm58KOYxec5luLuSo-Vg-13" value="Gen OTP">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-27" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#9673a6;dashed=1;fontStyle=1;" target="Gm58KOYxec5luLuSo-Vg-34" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480" y="1295" />
+              <mxPoint x="1770" y="1295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-28" connectable="0" parent="Gm58KOYxec5luLuSo-Vg-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;SMS OTP&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3981" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-29" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" target="Gm58KOYxec5luLuSo-Vg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-30" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;dashed=1;strokeColor=#0000ff;" target="Gm58KOYxec5luLuSo-Vg-16" value="Cung cấp HĐ/CMT/OTP">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-31" edge="1" parent="1" source="Gm58KOYxec5luLuSo-Vg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#28a745;strokeWidth=2;" target="Gm58KOYxec5luLuSo-Vg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-32" parent="1" style="swimlane;html=1;startSize=30;horizontal=0;fillColor=#e9ecef;fontFamily=Arial;fontStyle=1;" value="1. KHÁCH HÀNG" vertex="1">
+          <mxGeometry height="180" width="2700" x="70" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-33" parent="Gm58KOYxec5luLuSo-Vg-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;fontStyle=1;" value="Tài khoản Ngân hàng BÁO CÓ" vertex="1">
+          <mxGeometry height="60" width="160" x="1950" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-34" parent="Gm58KOYxec5luLuSo-Vg-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#d39e00;" value="Nhận OTP qua SMS" vertex="1">
+          <mxGeometry height="60" width="130" x="1600" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-35" parent="Gm58KOYxec5luLuSo-Vg-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2ff;" value="Ra Đại lý (Mang CMT, HĐ)" vertex="1">
+          <mxGeometry height="60" width="160" x="1800" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-36" parent="Gm58KOYxec5luLuSo-Vg-32" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cdeb8b;strokeColor=#36393d;" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-weight: 700;&quot;&gt;NHẬN TIỀN THÀNH CÔNG&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="2420" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-37" edge="1" parent="Gm58KOYxec5luLuSo-Vg-32" source="Gm58KOYxec5luLuSo-Vg-33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Gm58KOYxec5luLuSo-Vg-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2200" y="70" />
+              <mxPoint x="2200" y="70" />
+            </Array>
+            <mxPoint x="2400" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-38" edge="1" parent="Gm58KOYxec5luLuSo-Vg-32" source="Gm58KOYxec5luLuSo-Vg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" target="Gm58KOYxec5luLuSo-Vg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm58KOYxec5luLuSo-Vg-39" edge="1" parent="Gm58KOYxec5luLuSo-Vg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#28a745;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="Nhận tiền mặt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2580" y="1110" />
+              <mxPoint x="2580" y="70" />
+            </Array>
+            <mxPoint x="2490" y="1110" as="sourcePoint" />
+            <mxPoint x="2520" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
